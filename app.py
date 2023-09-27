@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # Database configuration
 db_config = {
-    'host': 'localhost',
+    'host': 'zomato-chronicles-backend-level-1.vercel.app',
     'user': 'root',
     'password': 'Shiva@1234',
     'database': 'foodie_haven',
