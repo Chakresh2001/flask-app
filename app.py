@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Database configuration
 db_config = {
     'host': 'localhost',
-    'port': 10000,  # Replace with the appropriate port
+    'port': 3306,  # Replace with the appropriate port
     'user': 'root',
     'password': 'Shiva@1234',
     'database': 'foodie_haven',
@@ -39,7 +39,7 @@ def check_sale_id_exists(sale_id):
         # Database configuration
         db_config = {
             'host': 'localhost',
-            'port': 10000,  # Replace with the appropriate port
+            'port': 3306,  # Replace with the appropriate port
             'user': 'root',
             'password': 'Shiva@1234',
             'database': 'foodie_haven',
