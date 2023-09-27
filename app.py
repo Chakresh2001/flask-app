@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # Database configuration
 db_config = {
-    'host': 'localhost',
+    'host': 'https://flask-app-we3t.onrender.com/',
     'user': 'root',
     'password': 'Shiva@1234',
     'database': 'foodie_haven',
@@ -37,7 +37,7 @@ def check_sale_id_exists(sale_id):
     try:
         # Database configuration
         db_config = {
-            'host': 'localhost',
+            'host': 'https://flask-app-we3t.onrender.com/',
             'user': 'root',
             'password': 'Shiva@1234',
             'database': 'foodie_haven',
